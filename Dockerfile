@@ -1,5 +1,4 @@
-FROM python:3.10-slim-buster
-
+FROM python:latest
 RUN mkdir -p /opt/app
 
 # Set environment variables
@@ -8,7 +7,8 @@ ENV PYTHONUNBUFFERED 1
 
 # Create workdir and copy project to container workdir
 WORKDIR /opt/app
-COPY . .
+COPY requirements.txt /opt/app
+COPY . /opt/app
 
 # Run commands
 RUN pip install --upgrade pip
