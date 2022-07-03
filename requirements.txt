@@ -16,8 +16,9 @@ packaging==20.9
 pyparsing==2.4.7
 pytz==2020.5
 requests==2.25.1
-ruamel.yaml==0.16.12
+#ruamel.yaml==0.16.12
 ruamel.yaml.clib==0.2.2
 sqlparse==0.4.1
 uritemplate==3.0.1
 urllib3==1.26.3
+psycopg2-binary==2.8.6
