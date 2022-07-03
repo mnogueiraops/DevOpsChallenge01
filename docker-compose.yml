@@ -23,7 +23,7 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_HOST=db
-      - DJANGO_SUPERUSER_EMAIL=mvjnogueira@gmail.com
+      - DJANGO_SUPERUSER_EMAIL=mnogueiraops@gmail.com
       - DJANGO_SUPERUSER_PASSWORD=Pass@12345
       #
     depends_on:
