@@ -21,5 +21,5 @@ The 'startup.sh' will create/migrate an SQLITE, create the superuser called 'adm
 
 # Docker Compose
 
-
+The docker-compose.yml will trigger everything and setup an ready application running and responding on 0.0.0.0:8000 (aka localhost) with enviroment variables like DB and it will set the superuser password and e-mail too.
 
