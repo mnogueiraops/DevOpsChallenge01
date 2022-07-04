@@ -3,7 +3,7 @@
 
 Repo for the Alura's DevOps Challenge: https://www.alura.com.br/challenges/devops
 
-# Wut???
+# What is the purpose of this repo?
 
 A challenge proposed by the Alura team where we must host an application developed in python + django and transform it into a container, and implement an CI/CD pipeline with the purpose to make an continuous delivery for the app
 
