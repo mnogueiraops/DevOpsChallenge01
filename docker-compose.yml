@@ -12,7 +12,7 @@ services:
       - POSTGRES_PASSWORD=postgres
   web:
     container_name: alura-web
-    image: silversrl/django_alura_project
+    image: silversrl/django_alura_project:1.0
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/code
